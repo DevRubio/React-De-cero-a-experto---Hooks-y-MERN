@@ -10,6 +10,7 @@ import { MultipleCustomHooks } from './examples/MultipleCustomHooks'
 import { FocusScreen } from './04-useRef/FocusScreen'
 import { Memorize } from './06-memos/Memorize'
 import { MemoHook } from './06-memos/MemoHook'
+import { CallbackHook } from './06-memos/CallbackHook'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     //<MultipleCustomHooks/>
     //<FocusScreen/>
     //<Memorize/>
-    <MemoHook/>
+    //<MemoHook/>
+    <CallbackHook/>
   //</React.StrictMode>,
 )
