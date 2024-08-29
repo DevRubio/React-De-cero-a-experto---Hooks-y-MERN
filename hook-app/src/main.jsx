@@ -6,11 +6,12 @@ import { CounterApp } from './01-useState/CounterApp'
 import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 import { SimpleForm } from './02-useEffect/SimpleForm'
 import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
-import { MultipleCustomHooks } from './examples/MultipleCustomHooks'
+import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 import { FocusScreen } from './04-useRef/FocusScreen'
 import { Memorize } from './06-memos/Memorize'
 import { MemoHook } from './06-memos/MemoHook'
 import { CallbackHook } from './06-memos/CallbackHook'
+import { Padre } from './07-tarea-memo/Padre'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     //<FocusScreen/>
     //<Memorize/>
     //<MemoHook/>
-    <CallbackHook/>
+    //<CallbackHook/>
+    <Padre/>
   //</React.StrictMode>,
 )
